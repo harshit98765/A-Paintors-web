@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Painter's Web - Home</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html" class="nav1">A Painter's Web</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="works.html">Works</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="welcome">
+        <h1>Welcome to A Painter's Web!</h1>
+    </section>
+
+    <section class="popular-works">
+        <h2>Currently Popular Works</h2>
+        <div class="artworks">
+            <a href="work_item.html"><img src="painting1.jpeg" alt="Painting 1" onclick="Display();" id="img"></a>
+            <a href="work_item.html"><img src="painting2.jpeg" alt="Painting 2" onclick="Display();" id="img"></a>
+            <a href="work_item.html"><img src="painting3.jpeg" alt="Painting 3" onclick="Display();" id="img"></a>
+        </div>
+        <a href="works.html" class="view-works">View all works</a>
+    </section>
+    <section class="popular-works">
+        <a href="about.html" class="view-works"><h2>About Us</h2></a>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
